@@ -1,0 +1,29 @@
+{
+  "name": "photo-gallery",
+  "main": "dist/photo-gallery.min.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paperify/photo-gallery",
+  "authors": [
+    "Roman Samec"
+  ],
+  "description": "React photo gallery.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}

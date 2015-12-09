@@ -1,0 +1,53 @@
+{
+  "name": "photo-gallery",
+  "version": "0.0.1",
+  "private": false,
+  "description": "React photo gallery.",
+  "main": "lib/PhotoGallery.js",
+  "author": "Roman Samec (roman.samec2@gmail.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/paperify/photo-gallery",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paperify/photo-gallery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paperify/photo-gallery/issues"
+  },
+  "dependencies": {
+    "css-layout": "^1.1.1",
+    "lodash": "^3.10.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {
+    "fluxify": "^0.2.2",
+    "gulp": "^3.8.10",
+    "react-binding": "^0.6.4",
+    "react-colorpickr": "^3.0.2",
+    "react-component-gulp-tasks": "^0.7.0",
+    "react-contextmenu": "^0.2.1",
+    "react-designer-widgets": "^0.1.44",
+    "react-input-range": "^0.4.0",
+    "react-multistep": "^1.0.0",
+    "react-page-renderer": "0.0.44",
+    "react-split-pane": "^0.1.13"
+  },
+  "peerDependencies": {},
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "browser": "lib/PhotoGallery.js",
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\" && exit 0"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}
